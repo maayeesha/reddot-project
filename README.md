@@ -1,6 +1,7 @@
 # URL shortener
 
 This application takes an URL as input and generates a unique, shorter URL that redirects to the original URL. It also tracks and displays how many times a generated URL has been clicked.
+<<<<<<< HEAD
 
 ## Development of the application
 
@@ -34,3 +35,6 @@ Must have Node JS, Express and API running platform installed to run the applica
 - Paste the shortened id in the input field and click "Send"
 - "totalClicks" shows how many times the link has been visited
 - The shortened id redirects to the original data
+=======
+- - hj
+>>>>>>> e682852f04ac901c1ae90697d894e1a8710142f5
