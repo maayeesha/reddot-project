@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
+
 const urlSchema = new mongoose.Schema(
   {
     shortId: {
@@ -10,6 +11,10 @@ const urlSchema = new mongoose.Schema(
     redirectURL: {
       type: String,
       required: true,
+    },
+    customShortUrl: {
+      type: String,
+      unique: true,
     },
     visited: [{ timestamp: { type: Number } }],
   },
