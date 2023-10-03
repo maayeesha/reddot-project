@@ -8,7 +8,9 @@ This app was developed using Express JS, Mongodb and Node JS.
 
 ## Required technology
 
-Must have Node JS, Express and API running platform installed to run the application
+- Node JS
+- Express JS
+- API running platform
 
 ## Use Case
 
