@@ -24,8 +24,8 @@ Must have Node JS, Express and API running platform installed to run the applica
 - The user pastes a long URL into the input field
 - Environment is set up (For this, I have used port 8001 hence, http://localhost:8001 )
 - HTTP method is selected from the dropdown
-- - For generating a shortened URL "POST" is used
-- - For using the generated URL that redirects to the original URL "GET" is used.
+  - For generating a shortened URL "POST" is used
+  - For using the generated URL that redirects to the original URL "GET" is used.
 - Click "Send" to make the request
 
 ## Accessing analytics
